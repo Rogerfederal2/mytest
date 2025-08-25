@@ -23,107 +23,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # https://raw.githubusercontent.com/moneyfly1/highnodes/refs/heads/main/data/clash.yaml
 # 订阅链接列表
 links = [    
-    "https://raw.githubusercontent.com/maplelgj/TV/9997fd858b33405d56adb127ed686dc480c32dc4/VV", 
-    "https://raw.githubusercontent.com/hzrenji/hzdx/fae232f376c63c473c9c155664dac6d296967510/sudu", 
-    "https://raw.githubusercontent.com/fryhbzy/myfiles/989da7513804ca1bb8f0294eb5ada717b63f23eb/sub.yaml", 
-    "https://raw.githubusercontent.com/sanyandesign/rule/4dc1252012f0c5808763b3c9708d4bdf45afe58c/config.yaml",
-    "https://raw.githubusercontent.com/gzpanda/temppp/refs/heads/main/panda.yaml",  
-    "https://raw.githubusercontent.com/WLget/V2Ray_configs_64/master/ConfigSub_list.txt",    
-    "https://raw.githubusercontent.com/jianguogongyong/ssr_subscrible_tool/refs/heads/master/node.txt", 
-    "https://raw.githubusercontent.com/jgchengxin/ssr_subscrible_tool/refs/heads/master/node.txt",
-    "https://raw.githubusercontent.com/dl250/dl250/refs/heads/master/node.txt",
-    "https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/wenode.yaml",
-    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/tuicbase64",
-    "https://raw.githubusercontent.com/nasheep/FreeNode/main/clash/PlayLab",
-    "https://raw.githubusercontent.com/Flik6/getNode/main/v2ray.txt",
-    "https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription2",
-    "https://raw.githubusercontent.com/voken100g/AutoSSR/master/online",
-    "https://raw.githubusercontent.com/vpei/free-node-1/refs/heads/main/res/nod-4.txt",
-    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/vmess",
-    "https://raw.githubusercontent.com/shahidbhutta/Clash/refs/heads/main/Router",
-    "https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml",
-    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/Eternity.yml",
-    "https://raw.githubusercontent.com/Mohammadgb0078/IRV2ray/main/vmess.txt",
-    "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt",
-    "https://raw.githubusercontent.com/du5/free/master/file/0909/Clash.yaml",
-    "https://raw.githubusercontent.com/BUTUbird/ClashPoint/main/application.yaml",
-    "https://raw.githubusercontent.com/adiwzx/freenode/main/adispeed.txt",
-    "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/v2",
-    "https://raw.githubusercontent.com/69z1zfw2fly/fly/main/2.yaml",
-    "https://raw.githubusercontent.com/Tenerome/v2ray/main/vmess.txt",
-    "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/raw/master/collected-proxies/clash-meta/all.yaml",
-    "https://raw.githubusercontent.com/FGWong/clash_config/main/common_proxies.yaml",
-    "https://raw.githubusercontent.com/ronghuaxueleng/get_v2/refs/heads/main/pub/cfmem.yaml",
-    "https://raw.githubusercontent.com/vxiaov/free_proxy_ss/main/ss/sssub",
-    "https://raw.githubusercontent.com/vpei/free-node-1/refs/heads/main/res/nod-9.txt",
-    "https://raw.githubusercontent.com/ALIILAPRO/v2rayNG-Config/main/sub.txt",
-    "https://raw.githubusercontent.com/mai19950/clash_config/refs/heads/main/sub/Free.yaml",
-    "https://raw.githubusercontent.com/ReaJason/Clash-Butler/master/clash.yaml",
-    "https://raw.githubusercontent.com/vpei/free-node-1/refs/heads/main/res/nod-0.txt",
-    "https://raw.githubusercontent.com/mheidari98/.proxy/refs/heads/main/ss",
-    "https://raw.githubusercontent.com/parkerpa/zypjj/main/clash",
-    "https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml",
-    "https://raw.githubusercontent.com/vxiaov/free_proxy_ss/main/ssr/ssrsub",
-    "https://raw.githubusercontent.com/mianfengyang/cfvpn/main/cf.yaml",
-    "https://raw.githubusercontent.com/hkaa0/permalink/e8f97142d083c0f5dac55af7b6531b300f273b4d/proxy/V2ray",
-    "https://raw.githubusercontent.com/mlabalabala/v2ray-node/main/nodefree4clash.txt",
-    "https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/main/Shenzo.txt",
-    "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx2",
-    "https://raw.githubusercontent.com/vpei/free-node-1/refs/heads/main/res/nod-2.txt",
-    "https://www.xrayvip.com/free.yaml",
-    "https://raw.githubusercontent.com/wisebobo/clashNodes/refs/heads/master/rules_clash.yaml",
-    "https://raw.githubusercontent.com/ZY-404/v2ray/main/v2ray.txt",
-    "https://raw.githubusercontent.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy/main/combine/clash.config.yaml",
-    "https://raw.githubusercontent.com/AzadNetCH/Clash/refs/heads/main/AzadNet_iOS.txt",
-    "https://raw.githubusercontent.com/SANYIMOE/VPN-free/4cf1dfd9e9b1f612a60f8796f43ea17f2bca0727/conf/data.txt",
-    "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub",
-    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/trojanbase64",
-    "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/ss/sssub",
-    "https://raw.githubusercontent.com/PangTouY00/Auto_proxy/main/Long_term_subscription_num",
-    "https://raw.githubusercontent.com/jiquanxiang/abc/main/v7",
-    "https://raw.githubusercontent.com/wrfree/free/refs/heads/main/v2",
-    "https://raw.githubusercontent.com/pojiezhiyuanjun/freev2/master/20200808.txt",
-    "https://dpaste.com/6KR56XJ72.txt",
-    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Splitted-By-Protocol/ss.txt",
-    "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/clash.yml",
-    "https://raw.githubusercontent.com/sami-soft/v2rayN_proxy/main/new1.txt",
-    "https://raw.githubusercontent.com/IrisGitHub/freeclashconfig/main/config.yaml",
-    "https://raw.githubusercontent.com/Misaka-blog/chromego_merge/main/sub/merged_proxies_new.yaml",
-    "https://raw.githubusercontent.com/Kwinshadow/TelegramV2rayCollector/raw/main/sublinks/b64ss.txt",
-    "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/refs/heads/master/collected-proxies/clash-meta/all.yaml",
-    "https://raw.githubusercontent.com/zjfb/SubCrawler/main/sub/share/all",
-    "https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num",
-    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/refs/heads/master/list.txt",
-    "https://raw.githubusercontent.com/gtang8/SubCrawler/main/sub/share/all",
-    "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/clash.yaml",
-    "https://raw.githubusercontent.com/Flik6/getNode/main/clash.yaml",
-    "https://raw.githubusercontent.com/chfchf0306/jeidian4.18/main/4.18",
-    "https://raw.githubusercontent.com/skywrt/v2ray-configs/refs/heads/main/All_Configs_Sub.txt",
-    "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/all_configs.txt",
-    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/All_Configs_Sub.txt",
-    "https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/refs/heads/main/All_Configs_Sub.txt",
-    "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/refs/heads/master/collected-proxies/row-url/all.txt",
-    "https://raw.githubusercontent.com/vxiaov/free_proxies/refs/heads/main/links.txt",
-    "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/refs/heads/master/list.txt",
-    "https://raw.githubusercontent.com/thirtysixpw/v2ray-reaper/refs/heads/main/normal/mix",
-    "https://raw.githubusercontent.com/Chaos2020/wanda/refs/heads/main/daili.yaml",
-    "https://raw.githubusercontent.com/Chaos2020/wanda/refs/heads/main/daili2.yaml",
-    "https://raw.githubusercontent.com/xbuffer/ClashData/refs/heads/main/Eternity.yaml",
-    "https://raw.githubusercontent.com/M450ud/V2ray-Configs/refs/heads/main/All_Configs_Sub.txt",
-    "https://raw.githubusercontent.com/pandaedward/ProxyCollector/blob/master/sub/proxies.txt",
-    "https://raw.githubusercontent.com/HDYOU/porxy/refs/heads/main/data/all_proxy.txt",
-    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/refs/heads/main/sub/mix",
-    "https://raw.githubusercontent.com/peacefish/nodefree/refs/heads/main/sub/proxy_cf.yaml",
-    "https://raw.githubusercontent.com/peacefish/nodefree/refs/heads/main/sub/proxy.yaml",
-    "https://raw.githubusercontent.com/Back-T0/renameProxies/refs/heads/main/result/resource2_template.yaml",
-    "https://raw.githubusercontent.com/geedoor/geedoor.github.io/refs/heads/main/semua.txt",
-    "https://raw.githubusercontent.com/geedoor/geedoor.github.io/refs/heads/main/v2tel_links1.txt",
-    "https://raw.githubusercontent.com/geedoor/geedoor.github.io/refs/heads/main/cm1.yml",
-    "https://raw.githubusercontent.com/geedoor/geedoor.github.io/refs/heads/main/cm3.yml",
-    "https://raw.githubusercontent.com/geedoor/geedoor.github.io/refs/heads/main/kumpulan-p1.txt",
-    "https://raw.githubusercontent.com/geedoor/geedoor.github.io/refs/heads/main/v2tel_links2.txt",
-    "https://raw.githubusercontent.com/geedoor/geedoor.github.io/refs/heads/main/kumpulan-p3.txt",
-    "https://raw.githubusercontent.com/geedoor/geedoor.github.io/refs/heads/main/subapi",
     "https://raw.githubusercontent.com/geedoor/geedoor.github.io/refs/heads/main/aktif.txt",
     "https://raw.githubusercontent.com/samling-jackyjyo/AutoMergePublicNodes/refs/heads/master/list.txt",
     "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml",
@@ -169,7 +68,6 @@ links = [
     "https://raw.githubusercontent.com/SamanGho/v2ray_collector/main/v2tel_links2.txt",
     "https://raw.githubusercontent.com/acymz/AutoVPN/main/data/V2.txt",
     "https://raw.githubusercontent.com/peacefish/nodefree/main/sub/proxy_cf.yaml",
-    "https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/V2.txt",
     "https://raw.githubusercontent.com/NiceVPN123/NiceVPN/main/utils/pool/output.yaml",
     "https://raw.githubusercontent.com/yorkLiu/FreeV2RayNode/main/v2ray.txt",
     "https://raw.githubusercontent.com/gfpcom/free-proxy-list/main/list/ss.txt",
@@ -181,10 +79,6 @@ links = [
     "https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml",
     "https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/VM_TrinityBase",
     "https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/TrinityBase",
-    "https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/bulk/ss_iran.txt",
-    "https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/bulk/trojan_iran.txt",
-    "https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/bulk/vless_iran.txt",
-    "https://raw.githubusercontent.com/darknessm427/IranConfigCollector/main/bulk/vmess_iran.txt",
     "https://raw.githubusercontent.com/hzcsure/hzcsure/refs/heads/main/example.txt",
     "https://raw.githubusercontent.com/wanghz/Honeybee/refs/heads/main/sub/clash.yaml",
     "https://raw.githubusercontent.com/wanghz/Honeybee/refs/heads/main/sub/htonly.yml",
@@ -230,82 +124,7 @@ links = [
     "https://raw.githubusercontent.com/chongdong1230/dxz/main/clash",
     "https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md",
     "https://raw.githubusercontent.com/SANYIMOE/VPN-free/9ecbfd0efd89256e136f7b8c4558dc94fe1905af/conf/data.txt",
-    "https://raw.githubusercontent.com/Strongmiao168/v2ray/main/1203",
-    "https://raw.githubusercontent.com/0x24a/FreeNodes/main/subs/ss.txt",
-    "https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/winformClash.yaml",
-    "https://raw.githubusercontent.com/xbuffer/ClashData/main/Eternity.yaml",
-    "http://150.230.195.209:12580/clash/proxies",
-    "https://raw.githubusercontent.com/SANYIMOE/VPN-free/6e93041767a76c3104062551b003f29ea55f584e/conf/data.txt",
-    "https://raw.githubusercontent.com/zjr13808836946/zjr_clash/main/V2_SSR_M",
-    "https://raw.githubusercontent.com/RaymondHarris971/ssrsub/master/9a075bdee5.txt",
-    "https://raw.githubusercontent.com/mfuu/v2ray/refs/heads/master/v2ray",
-    "https://raw.githubusercontent.com/vpei/free-node-1/refs/heads/main/res/nod-1.txt",
-    "http://155.248.172.106:12580/clash/proxies",
-    "https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/merged.txt",
-    "https://raw.githubusercontent.com/baipiao0/baipiao02/main/v2ray",
-    "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/all.yaml",
-    "https://raw.githubusercontent.com/a2470982985/getNode/main/v2ray.txt",
-    "https://raw.githubusercontent.com/Lewis-1217/FreeNodes/main/bpjzx1",
-    "https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription3",
-    "https://raw.githubusercontent.com/MrMohebi/xray-proxy-grabber-telegram/master/collected-proxies/clash-meta/actives_under_1000ms.yaml",
-    "https://raw.githubusercontent.com/iwxf/free-v2ray/master/index.html",
-    "https://raw.githubusercontent.com/chfchf0306/clash/main/clash",
-    "https://raw.githubusercontent.com/luxl-1379/merge/77247d23def72b25226dfa741614e9b07a569c72/sub/sub_merge_base64.txt",
-    "https://raw.githubusercontent.com/vpei/free-node-1/refs/heads/main/res/nod-3.txt",
-    "https://raw.githubusercontent.com/SANYIMOE/VPN-free/bfd7d84e84ef6fbbd89352dea17fdbcb8ac3e29a/conf/data.txt",
-    "https://raw.githubusercontent.com/learnhard-cn/free_proxy_ss/main/free",
-    "https://raw.githubusercontent.com/gooooooooooooogle/Clash-Config/main/Clash.yaml",
-    "https://raw.githubusercontent.com/vpei/free-node-1/refs/heads/main/res/nod-7.txt",
-    "https://github.com/mahdibland/V2RayAggregator/raw/master/sub/sub_merge_yaml.yml",
-    "https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/clash-meta.yaml",
-    "https://raw.githubusercontent.com/e-miao/freeClash/main/proxies.yaml",
-    "https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/refs/heads/main/Shenzo.txt",
-    "https://raw.githubusercontent.com/vpei/free-node-1/refs/heads/main/res/nod-5.txt",
-    "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml",
-    "https://raw.githubusercontent.com/mheidari98/.proxy/main/all",
-    "https://raw.githubusercontent.com/JieErJingFu/FreeNodesV2RayorTrojan_20210113-/main/EncryptedFreeNodes.txt",
-    "https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt",
-    "https://raw.githubusercontent.com/zhlx2835/freefq/main/v2",
-    "https://raw.githubusercontent.com/MhdiTaheri/V2rayCollector/main/sub/hysteriabase64",
-    "https://raw.githubusercontent.com/tony0392/clash/main/clash.yaml",
-    "https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/Splitted-By-Protocol/ss.txt",
-    "https://raw.githubusercontent.com/itxve/fetch-clash-node/main/node/ClashNode.yaml",
-    "https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/temporary",
-    "https://raw.githubusercontent.com/baip01/clash/main/clash",
-    "https://raw.githubusercontent.com/a2470982985/getNode/main/clash.yaml",
-    "https://proxy.crazygeeky.com/clash/proxies",
-    "https://raw.githubusercontent.com/zhlx2835/freefq/main/clash.yaml",
-    "https://raw.githubusercontent.com/faceair/fastsub/refs/heads/main/fastsub.yaml",
-    "https://raw.githubusercontent.com/tjyu010/jiedian/main/21",
-    "https://raw.githubusercontent.com/MrPooyaX/VpnsFucking/refs/heads/main/BeVpn.txt",
-    "https://raw.githubusercontent.com/vpei/free-node-1/refs/heads/main/res/nod-8.txt",
-    "https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85",
-    "https://raw.githubusercontent.com/vpei/free-node-1/main/o/proxies.txt",
-    "https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/main/nodes/yudou66.yaml",
-    "https://raw.githubusercontent.com/xhmotor/V2rayn/main/v2rayn",
-    "https://raw.githubusercontent.com/hotsymbol/vpnsetting/master/v2rayopen",
-    "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub",
-    "https://raw.githubusercontent.com/xiyaowong/freeFQ/main/v2ray",
-    "https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/vmess#ignore=vmess",
-    "https://raw.githubusercontent.com/Surfboardv2ray/v2ray-worker-sub/master/Eternity.yml",
-    "https://raw.githubusercontent.com/freebaipiao/freebaipiao/main/jiassweetoy3.yaml",
-    "https://raw.githubusercontent.com/mfuu/v2ray/master/merge/merge_clash.yaml",
-    "https://raw.githubusercontent.com/pojiezhiyuanjun/2023/master/0804clash.yml",
-    "http://66.42.50.118:12580/clash/proxies",
-    "https://raw.githubusercontent.com/shabane/kamaji/master/hub/b64/ss.txt",
-    "https://raw.githubusercontent.com/ugwd01bFwiza/ClashNodes/refs/heads/main/clash.yaml",
-    "https://raw.githubusercontent.com/hsb4657/v2ray/main/lastest.txt",
-    "https://raw.githubusercontent.com/Ruk1ng001/freeSub/refs/heads/main/clash.yaml",
-    "https://raw.githubusercontent.com/igeekshare/GeekshareFreeNode/main/clash/Geekshare.yaml",
-    "https://raw.githubusercontent.com/mheidari98/.proxy/main/vmess",
-    "https://raw.githubusercontent.com/mheidari98/.proxy/main/ss",
-    "https://raw.githubusercontent.com/ZywChannel/free/main/sub",
-    "https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/ss_with_plugin",
-    "https://raw.githubusercontent.com/mai19950/clash_config/refs/heads/main/sub/ermaozi.yaml",
-    "https://raw.githubusercontent.com/gitbigg/permalink/main/subscribe",
-    "https://raw.githubusercontent.com/ts-sf/fly/main/v2",
-    "https://raw.githubusercontent.com/mai19950/clash_config/refs/heads/main/sub/clash.yaml",
-    "https://raw.githubusercontent.com/shbioc/clash/main/aaa01.yaml",
+
 
 ]
 
@@ -341,8 +160,19 @@ SUPPORTED_PROTOCOLS = [
 TEST_URLS = [
     #"http://www.google.com/generate_204",  # Google测试
     "http://www.gstatic.com/generate_204",  # Google测试
+    "http://maps.googleapis.com/maps/api/mapsjs/gen_204",
+    "http://www.google.com/generate_204",
+    "http://www.google-analytics.com/generate_204",
+    "http://connectivitycheck.gstatic.com/generate_204",
+    "https://clients3.google.com/generate_204",
+    "http://www.google.com/blank.html",
+    "https://www.facebook.com/common/referer_frame.php",
+    "https://twitter.com/favicon.ico",
+    "https://ssl.gstatic.com/ui/v1/icons/mail/images/cleardot.gif",
+    
+    
 ]
-CONNECTION_TIMEOUT = 10  # 连接超时时间，单位为秒
+CONNECTION_TIMEOUT = 20  # 连接超时时间，单位为秒
 MAX_CONCURRENT_TESTS = 88  # 最大并发测试数量
 DEBUG_MODE = True  # 默认开启调试模式，方便查看处理过程
 
@@ -1762,31 +1592,31 @@ def test_node_latency(node):
         start_time = time.time()
         
         # 按顺序尝试不同的测试URL
-        for test_url in TEST_URLS:
-            try:
+        test_url = random.choice(TEST_URLS)
+        try:
+            if DEBUG_MODE:
+                print(f"测试节点: {node['name']} - 尝试URL: {test_url}")
+            time.sleep(0.5)
+            response = requests.get(
+                test_url,
+                proxies=proxies,
+                headers=headers,
+                timeout=CONNECTION_TIMEOUT
+            )
+            
+            if response.status_code in [200, 204]:
+                latency = int((time.time() - start_time) * 1000)
                 if DEBUG_MODE:
-                    print(f"测试节点: {node['name']} - 尝试URL: {test_url}")
-                time.sleep(0.5)
-                response = requests.get(
-                    test_url,
-                    proxies=proxies,
-                    headers=headers,
-                    timeout=CONNECTION_TIMEOUT
-                )
-                
-                if response.status_code in [200, 204]:
-                    latency = int((time.time() - start_time) * 1000)
-                    if DEBUG_MODE:
-                        print(f"测试成功: {node['name']} - URL: {test_url} - 延迟: {latency}ms")
-                    return latency
-                else:
-                    if DEBUG_MODE:
-                        print(f"测试URL状态码错误: {response.status_code}")
-            except Exception as e:
-                time.sleep(0.5)
+                    print(f"测试成功: {node['name']} - URL: {test_url} - 延迟: {latency}ms")
+                return latency
+            else:
                 if DEBUG_MODE:
-                    print(f"测试失败: {test_url} - 错误: {str(e)}")
-                continue  # 尝试下一个URL
+                    print(f"测试URL状态码错误: {response.status_code}")
+        except Exception as e:
+            time.sleep(0.5)
+            if DEBUG_MODE:
+                print(f"测试失败: {test_url} - 错误: {str(e)}")
+            continue  # 尝试下一个URL
         
         # 所有URL测试都失败
         if DEBUG_MODE:
