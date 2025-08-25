@@ -1616,7 +1616,7 @@ def test_node_latency(node):
             time.sleep(0.5)
             if DEBUG_MODE:
                 print(f"测试失败: {test_url} - 错误: {str(e)}")
-            continue  # 尝试下一个URL
+            #continue  # 尝试下一个URL
         
         # 所有URL测试都失败
         if DEBUG_MODE:
