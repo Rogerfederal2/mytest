@@ -186,8 +186,8 @@ TEST_URLS = [
     
     
 ]
-CONNECTION_TIMEOUT = 20  # 连接超时时间，单位为秒
-MAX_CONCURRENT_TESTS = 88  # 最大并发测试数量
+CONNECTION_TIMEOUT = 10  # 连接超时时间，单位为秒
+MAX_CONCURRENT_TESTS = 100  # 最大并发测试数量
 DEBUG_MODE = True  # 默认开启调试模式，方便查看处理过程
 
 # 核心程序配置
